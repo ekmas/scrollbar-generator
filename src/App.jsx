@@ -1,4 +1,5 @@
 import React from "react"
+import Main from "./components/Main"
 
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
       <header className="py-[80px]">
         <h1 className="text-3xl text-center">scrollbar generator</h1>
       </header>
+
+      <Main />
     </>
   )
 }
