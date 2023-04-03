@@ -35,7 +35,7 @@ export default function Window() {
           }
         `}
       </style>
-      <div id='window' className='bg-[#ffffff] p-5 rounded ml-[50px] h-[512px] overflow-y-scroll border-2 border-black'>
+      <div id='window' className='bg-[#ffffff] p-5 rounded ml-[50px] m800:ml-5 m600:ml-0 m600:mt-5 h-[512px] overflow-y-scroll border-2 border-black'>
           <h2 className='font-medium text-xl'>Scroll!</h2>
 
           <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
