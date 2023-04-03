@@ -8,8 +8,11 @@ export default {
     extend: {
       colors: {
         'blue': '#9EBDFF',
-        'white': '#FBF5F3',
+        'white': '#FFFFFF',
         'black': '#111111'
+      },
+      screens:{
+        'xl': {'max': '1279px'},
       }
     },
   },

@@ -4,7 +4,7 @@ import Window from './Window'
 
 export default function Main() {
   return (
-    <main className='max-w-7xl xl:full px-5 flex justify-between mt-[50px] mx-auto'>
+    <main className='max-w-7xl mx-auto xl:w-full px-5 grid grid-cols-[25%_75%] mt-[50px]'>
         <Properties />
         <Window />
     </main>
