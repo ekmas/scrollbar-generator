@@ -6,7 +6,7 @@ export default function NumberProperty({ text, variableName, functionName, min }
   let func = useStore((state) => state[`${functionName}`])
 
   return (
-    <div className='flex items-center justify-between h-12 outline outline-1'>
+    <div className='flex items-center justify-between h-12'>
         <p>{text}</p>
 
         <div className='flex items-center'>

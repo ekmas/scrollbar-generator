@@ -12,7 +12,7 @@ export default function SelectProperty({ text, variableName, functionName, optio
         <select onChange={e => func(e.target.value)} className='outline-none border border-[#797675]' name={variableName} id={variableName}>
             {options.map(opt => {
                 return(
-                    <option value={`${opt}`}>{opt}</option>
+                    <option key={opt} value={`${opt}`}>{opt}</option>
                 )
             })}
         </select>
