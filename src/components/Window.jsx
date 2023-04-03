@@ -17,7 +17,7 @@ export default function Window() {
         {`
           #window{
             scrollbar-width: ${firefoxWidth};
-            scrollbar-color: #8f54a0 #ffffff;
+            scrollbar-color: ${thumbColor} ${trackColor};
           }
 
           #window::-webkit-scrollbar{
@@ -35,9 +35,13 @@ export default function Window() {
           }
         `}
       </style>
-      <div id='window' className='bg-[#ffffff] p-5 rounded h-[400px] overflow-y-scroll w-[500px] border-2 border-black'>
+      <div id='window' className='bg-[#ffffff] p-5 rounded ml-[50px] h-[512px] overflow-y-scroll border-2 border-black'>
           <h2 className='font-medium text-xl'>Scroll!</h2>
 
+          <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
+          <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
+          <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
+          <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
           <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
           <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
           <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam deserunt dolorem necessitatibus at eligendi error accusantium modi non quae minus voluptatibus in maxime mollitia, quisquam repellat repudiandae qui quidem eos debitis! Fugit eaque accusantium dolore saepe molestias ipsam quos non adipisci autem debitis sunt, suscipit maiores a temporibus officiis?</p>
