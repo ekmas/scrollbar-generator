@@ -2,7 +2,6 @@ import React from 'react'
 import ColorProperty from './ColorProperty'
 import NumberProperty from './NumberProperty'
 import SelectProperty from './SelectProperty'
-import Button from './Button'
 
 export default function Properties() {
   return (
@@ -61,8 +60,6 @@ export default function Properties() {
           functionName={'changeFirefoxWidth'} 
           options={['auto', 'none', 'thin']}
         />
-
-        <Button />
     </div>
   )
 }
